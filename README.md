@@ -4,7 +4,7 @@ An interactive geospatial visualization comparing normalized taxi pickup density
 
 **[🔗 Live Demo →](https://gperrin12.github.io/nyc-hotspot-site/)**
 
-![Overlay View](screenshots/overlay.png)
+![Overlay View](overlay.png)
 
 ---
 
@@ -28,13 +28,13 @@ Each time window is independently normalized so the visualization reveals *where
 
 The weighted center of gravity shifts approximately **2.5 km north** between Saturday night and Monday morning — a clean signature of the nightlife-to-commute transition.
 
-![Saturday 2AM](screenshots/saturday.png)
+![Saturday 2AM](saturday.png)
 *Saturday 2AM: Nightlife corridors dominate downtown Manhattan*
 
-![Monday 8AM](screenshots/monday.png)
+![Monday 8AM](monday.png)
 *Monday 8AM: Demand disperses to Midtown transit hubs and airports*
 
-![Difference View](screenshots/difference.png)
+![Difference View](difference.png)
 *Difference mode: Pink = Saturday-dominant cells, Blue = Monday-dominant cells*
 
 ## Features
@@ -88,13 +88,6 @@ Dot **size** and **opacity** are linearly mapped from the normalized value:
 - **Canvas overlay** for high-performance point rendering with glow effects
 - **Vanilla JavaScript** — no build step, no dependencies beyond CDN-hosted libraries
 - Single `index.html` file — just open it or deploy anywhere
-
-## Screenshots
-
-> **Note:** Replace the screenshot paths above with actual images. To capture them:
-> 1. Open `index.html` in your browser
-> 2. Set each view mode (Overlay, Sat, Mon, Difference)
-> 3. Take screenshots and save to a `screenshots/` folder in the repo
 
 ## Local Development
 
